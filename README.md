@@ -1,1 +1,1 @@
-"# country-state-city" 
+This is a file showing all countries linked to their state or provices and cities. The world.json json file is generated when you run `node generate.js`. The feeder files i.e city.json, state.json and country.json where obtained from `https://github.com/khkwan0/countryCityStateJson/tree/master/src/country-state-city/lib`.
