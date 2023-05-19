@@ -22,7 +22,7 @@ let result = country.map(i => {
 
 console.log(JSON.stringify(result[0]))
 
-fs.writeFile('test.json', JSON.stringify(result, null, 4), function (err) {
+fs.writeFile('world.json', JSON.stringify(result, null, 4), function (err) {
     if (err) throw err;
     console.log('Saved!');
 });
